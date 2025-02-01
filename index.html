@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monika S - Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.dark-mode header {
+  background-color: #222;
+}
+
+.dark-mode section {
+  background-color: #444;
+  color: #f4f4f4;
+}
+
+.dark-mode h2 {
+  color: #4CAF50;
+}
+</style>
+<body>
+    
+  <header>
+    <h1 id="theme-toggle">Monika S</h1>
+    <p>📞 +91 8056671809 | ✉️ monikasankar0603@gmail.com</p>
+    <p>23, Bazaar Street, Kottaiyur, Karaikudi, Sivagangai - 630106</p>
+  </header>
+
+  <section id="about">
+    <h2>Career Objective</h2>
+    <p>Aspiring professional seeking a challenging role in a dynamic organization that fosters continuous learning and skill development.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor of Commerce (Corporate Secretaryship)</strong> - Sourashtra College, Kamaraj University (2024) - 77%</li>
+      <li><strong>HSC</strong> - Tamil Nadu State Board (2021) - 93%</li>
+      <li><strong>SSLC</strong> - Tamil Nadu State Board (2019) - 88%</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Competencies</h2>
+    <ul>
+      <li>Hard Work & Dedication</li>
+      <li>Forecasting & Analytical Thinking</li>
+      <li>Time Management</li>
+      <li>Quick Learner & Adaptability</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><strong>Research Project:</strong> "Social Media Influence on Consumer Buying Behaviour"</p>
+    <p>Conducted in-depth research on the impact of social media on consumer decision-making.</p>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Listening to Music</li>
+      <li>Reading</li>
+    </ul>
+  </section>
+
+  <footer>
+    <h2>Declaration</h2>
+    <p>I hereby declare that the information provided above is true and correct to the best of my knowledge.</p>
+    <p><strong>Signature:</strong> Monika S</p>
+  </footer>
+</body>
+</html>
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+themeToggle.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+});
+</script>
